@@ -1,19 +1,28 @@
 # Supervity Chat Widget Test
 
-This is a simple static site to demonstrate the integration of the Supervity Chat Widget.
+This is a test deployment for the Supervity Chat Widget integration. The project consists of a simple HTML page that demonstrates the widget's functionality.
 
-## Deploying to Render
+## Deployment
 
-You can deploy this site to [Render](https://render.com/) as a static site.
+This project is configured to deploy on Render.com as a static site. The deployment configuration is specified in `render.yaml`.
 
-### Steps:
+### Configuration Details
 
-1. **Push this repository to GitHub** (or your preferred Git provider).
-2. **Create a new Static Site** on Render:
-   - Go to the Render dashboard and click **New + > Static Site**.
-   - Connect your repository.
-   - Set the **Build Command** to `null` (leave empty).
-   - Set the **Publish Directory** to `.` (the root directory).
-3. **Deploy!**
+- **Runtime**: Static
+- **Build Command**: None required
+- **Publish Directory**: Root directory (./)
 
-Your site will be live with the improved styling and the Supervity Chat Widget. 
+## Local Development
+
+To test locally, simply open `test.html` in a web browser. The chat widget should appear in the bottom right corner of the page.
+
+## Files
+
+- `test.html`: Main test page demonstrating the chat widget integration
+- `render.yaml`: Render deployment configuration
+- `.gitignore`: Git ignore rules
+- `README.md`: This documentation file
+
+## Notes
+
+The chat widget is loaded from an external source and requires no additional configuration on the page itself. 
