@@ -2,4 +2,4 @@ services:
   - type: web
     name: supervity-chat-widget-test
     runtime: static
-    staticPublishPath: test
+    staticPublishPath: .

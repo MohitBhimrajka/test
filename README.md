@@ -13,7 +13,7 @@ You can deploy this site to [Render](https://render.com/) as a static site.
    - Go to the Render dashboard and click **New + > Static Site**.
    - Connect your repository.
    - Set the **Build Command** to `null` (leave empty).
-   - Set the **Publish Directory** to `test`.
+   - Set the **Publish Directory** to `.` (the root directory).
 3. **Deploy!**
 
 Your site will be live with the improved styling and the Supervity Chat Widget. 
