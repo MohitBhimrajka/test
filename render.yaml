@@ -1,5 +1,5 @@
 services:
-  - type: static
+  - type: web
     name: supervity-chat-widget-test
-    env: static
-    staticPublishPath: test 
+    runtime: static
+    staticPublishPath: test
